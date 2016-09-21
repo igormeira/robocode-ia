@@ -1,0 +1,4 @@
+[20.09.2016 21:22:34,119] [main] INFO  org.jgap.gp.impl.GPGenotype  - Creating initial population
+[20.09.2016 21:22:34,119] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free: 90.5 MB
+[20.09.2016 21:22:34,135] [main] INFO  org.jgap.gp.impl.GPPopulation  - Prototype program set (depth 2)
+[20.09.2016 21:22:34,151] [main] INFO  org.jgap.gp.impl.GPGenotype  - Mem free after creating population: 90.5 MB

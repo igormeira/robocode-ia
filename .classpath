@@ -2,5 +2,19 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/igorm/Downloads/detonator-master/detonator-master/picocontainer-2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/igorm/Downloads/detonator-master/detonator-master/robocode.battle-1.9.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/igorm/Downloads/detonator-master/detonator-master/robocode.core-1.9.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/igorm/Downloads/detonator-master/detonator-master/robocode.host-1.9.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/igorm/Downloads/detonator-master/detonator-master/robocode.jar"/>
+	<classpathentry kind="lib" path="C:/Users/igorm/Downloads/detonator-master/detonator-master/robocode.repository-1.9.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/igorm/Downloads/detonator-master/detonator-master/robocode.samples-1.9.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/igorm/Downloads/detonator-master/detonator-master/robocode.sound-1.9.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/igorm/Downloads/detonator-master/detonator-master/robocode.tests.robots-1.9.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/igorm/Downloads/detonator-master/detonator-master/robocode.ui.editor-1.9.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/igorm/Downloads/detonator-master/detonator-master/robocode.ui-1.9.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/igorm/Downloads/detonator-master/detonator-master/roborumble.jar"/>
+	<classpathentry kind="lib" path="C:/Users/igorm/Downloads/detonator-master/jgap.jar"/>
+	<classpathentry kind="lib" path="C:/Users/igorm/Downloads/detonator-master/apache-logging-log4j.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
