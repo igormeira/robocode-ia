@@ -105,7 +105,7 @@ public class MainClass extends GPProblem {
 
         GPGenotype result = GPGenotype.randomInitialGenotype(config, types, argTypes,
                 nodeSets, 20, true);
-
+        
         return result;
     }
 
@@ -122,3 +122,5 @@ public class MainClass extends GPProblem {
         Fitness.createRobotFromChromossome(gp.getAllTimeBest());
     }
 }
+
+

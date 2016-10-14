@@ -47,7 +47,6 @@ public class Fitness extends GPFitnessFunction {
 					if (br.getTeamLeaderName().startsWith(ROBOT_NAME))
 						score = br.getScore();
 				}
-
 				fitness = score/sum;
 			}
 		});
@@ -101,7 +100,16 @@ public class Fitness extends GPFitnessFunction {
 		
 		scannedCode = a_subject.execute_object(0, new Object[]{}).toString();
 		
+		bulletCode = a_subject.execute_object(1, new Object[]{}).toString();
+		
+		wallCode = a_subject.execute_object(2, new Object[]{}).toString();
+		
+		hitCode = a_subject.execute_object(3, new Object[]{}).toString();
+		
 		System.out.println("generated code (onScannedRobot): " + scannedCode);
+		System.out.println("generated code (onHitBullet): " + bulletCode);
+		System.out.println("generated code (onHitWall): " + wallCode);
+		System.out.println("generated code (onHitRobot): " + hitCode);
 		
 		try {
 			FileWriter fstream = new FileWriter(ROBOT_FILE);
